@@ -23,7 +23,10 @@ public class array_basic {
         for (int i : EmpNumber) {
             System.out.println(i);
         }
-        
+        System.out.println("For loop one....");
+        for(int j = 0; j < EmpNumber.length; j++){
+            System.out.println(EmpNumber[j]);
+        }
         
     }
 }
